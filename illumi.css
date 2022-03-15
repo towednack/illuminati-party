@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
 /* -- Document Configuration -- */
+* {
+    cursor: url(media/main-cursor-920x1379.png), auto;
+}
 body {
     background-color: #000;
     overflow-x: hidden;
     font-family: 'Hubballi', cursive;
-    cursor: url(media/main-cursor-920x1379.png), auto;
 }
 a:link {
     color: #00d34c;
