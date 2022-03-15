@@ -2,7 +2,7 @@
 
 /* -- Document Configuration -- */
 * {
-    cursor: url(media/main-cursor-920x1379.png), auto;
+    cursor: url("media/main-cursor-920x1379.png"), auto;
 }
 body {
     background-color: #000;
