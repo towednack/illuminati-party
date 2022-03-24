@@ -117,6 +117,13 @@ nav ul li {
     border: solid #00d34c;
     border-width: 4px 4px 4px 4px;
 }
+.featuredbox {
+    background-color: #9b9b9b;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: solid #636363;
+    border-width: 2px 2px 2px 2px;
+}
 .right-sidebar {
     display: inline-block;
 }
@@ -130,6 +137,14 @@ nav ul li {
     border: solid #00d34c;
     border-width: 4px 4px 4px 4px;
 }
+.updatebox {
+    background-color: #9b9b9b;
+    margin-left: 6px;
+    margin-right: 6px;
+    border: solid #636363;
+    border-width: 2px 2px 2px 2px;
+}
+
 /* -- Text Configuration -- */
 .featured-posts h3, .updates h3, .alertbox h3 {
     color: #fff;
@@ -146,4 +161,32 @@ nav ul li {
     text-align: left;
     font-weight: 700;
     margin-left: 80px;
+}
+.updatebox h5 {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.updatebox p {
+    font-size: 16px;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-top: 8px;
+    text-align: center;
+}
+.featuredbox h5 {
+    font-size: 15px;
+    margin-bottom: 0;
+    margin-top: 15px;
+    font-weight: 600;
+    text-align: center;
+}
+.featuredbox p {
+    font-size: 16px;
+    margin-left: 4px;
+    margin-right: 2px;
+    margin-top: 8px;
+    text-align: center;
 }
