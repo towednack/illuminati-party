@@ -24,6 +24,11 @@ a:active {
 }
 
 /* -- Header Configuration -- */
+.top-warning h3 {
+    padding: 8px;
+    background-color: #cf6161;
+}
+
 header {
     margin-left: 20px;
     margin-right: 20px;
@@ -146,6 +151,12 @@ nav ul li {
 }
 
 /* -- Text Configuration -- */
+.top-warning h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+    margin-bottom: -10px;
+}
 .featured-posts h3, .updates h3, .alertbox h3 {
     color: #fff;
     text-align: center;
