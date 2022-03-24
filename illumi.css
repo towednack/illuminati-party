@@ -118,10 +118,10 @@ nav ul li {
     border-width: 4px 4px 4px 4px;
 }
 .featuredbox {
-    background-color: #9b9b9b;
+    background-color: #001f0b;
     margin-left: 6px;
     margin-right: 6px;
-    border: solid #636363;
+    border: solid #00d34c;
     border-width: 2px 2px 2px 2px;
 }
 .right-sidebar {
@@ -138,10 +138,10 @@ nav ul li {
     border-width: 4px 4px 4px 4px;
 }
 .updatebox {
-    background-color: #9b9b9b;
+    background-color: #001f0b;
     margin-left: 6px;
     margin-right: 6px;
-    border: solid #636363;
+    border: solid #00d34c;
     border-width: 2px 2px 2px 2px;
 }
 
@@ -162,31 +162,19 @@ nav ul li {
     font-weight: 700;
     margin-left: 80px;
 }
-.updatebox h5 {
+.updatebox h5, .featuredbox h5 {
     font-size: 15px;
     margin-bottom: 0;
     margin-top: 15px;
     font-weight: 600;
     text-align: center;
+    color: #fff;
 }
-.updatebox p {
+.updatebox p, .featuredbox p {
     font-size: 16px;
     margin-left: 4px;
     margin-right: 2px;
     margin-top: 8px;
     text-align: center;
-}
-.featuredbox h5 {
-    font-size: 15px;
-    margin-bottom: 0;
-    margin-top: 15px;
-    font-weight: 600;
-    text-align: center;
-}
-.featuredbox p {
-    font-size: 16px;
-    margin-left: 4px;
-    margin-right: 2px;
-    margin-top: 8px;
-    text-align: center;
+    color: #fff;
 }
