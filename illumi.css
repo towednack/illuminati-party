@@ -29,6 +29,40 @@ a:active {
     background-color: #cf6161;
 }
 
+.updatesticker {
+    margin-bottom: -10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+    background: #111111;
+    border: #fff solid;
+    border-width: 0px 2px 0px 2px;
+}
+.utmove {
+    display: flex;
+}
+.utitem {
+    flex-shrink: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 7px;
+    text-align: center;
+}
+@keyframes tickerh {
+    0% {
+        transform: translate3d(100%, 0, 0);
+    }
+    100% {
+        transform: translate3d(-400%, 0, 0);
+    }
+}
+.utmove {
+    animation: tickerh linear 50s infinite;
+}
+.utmove:hover {
+    animation-play-state: paused;
+}
+
 header {
     margin-left: 20px;
     margin-right: 20px;
@@ -158,6 +192,11 @@ nav ul li {
     font-weight: 800;
     font-size: 18px;
     margin-bottom: -10px;
+}
+.utitem {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
 }
 .featured-posts h3, .updates h3, .alertbox h3 {
     color: #fff;
