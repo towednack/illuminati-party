@@ -2,6 +2,12 @@
 
 * {
     cursor: cell;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 body {
     background: url(Moonlit_Landscape_with_a_View_of_the_New_Amstel_River_and_Castle_Kostverloren_by_Aert_van_der_Neer.JPG);
@@ -19,9 +25,18 @@ body {
     list-style: none;
 }
 .menu-options ul li {
+    margin-bottom: 70px;
+}
+.option {
+    padding: 10px;
     font-family: 'Uchen', serif;
     font-size: 50px;
     font-weight: 500;
-    margin-bottom: 70px;
+    margin-top: -20px;
+    margin-bottom: 50px;
     color: #fff;
+}
+.option:hover {
+    color: #000;
+    background-color: #fff;
 }
